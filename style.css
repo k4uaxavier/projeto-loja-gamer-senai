@@ -1,256 +1,295 @@
-*{ 
-    padding: 0%;
-    margin: 0%;
-    }
+
+*{
     
-    body{
-        background-color: #1a1a1a;
-    }
-    
-    .banner{
-    height: 450px;
-    width: 850px;
-    background-image: url("./assets/Banner.png"); /*ele adiciona uma imagem como fundo*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
+  padding: 0%;
+  margin: 0%;
+  }
   
-    }
-    
-    li a{
-        text-decoration: none;
-        color: #ffffff;
-        font-size: 20px;
-        padding: 25px;
-     }
-    ul{
-        display: flex; /*ativa a propriedade de alinhamento*/
-        flex-direction: row; /*coloca os elementos na horizontal*/
-    }
-    li{
-    list-style: none; /*remove os pontos das lista*/
-    }
-    nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    }
-     #logo{
-    height: 120px;
-    width: 120px;
-     }
-     .bi{
-    font-size: 40px;
-    color: #4c544c;
-     }
-     .texto-banner{
-        color: #ffffff;
-       font-size: 25px;
-     }
-     .btn{
-        height: 45px;
-        width: 115px;
-        border-radius: 55px;/*Deixa a  borda redonda*/
-        border: none; /*Serve para remover a borda*/
-        color: #ffffff;
-        font-size: 19px;
-        background-color: #333333;
-        margin: 30px;/*distancia o botao do texto*/
-     }
+  
+  body{
+      background-color: #1a1a1a;
+  }
+  
+  .banner{
+  height: 450px;
+  width: 850px;
+  background-image: url("./assets/Banner.png"); /*ele adiciona uma imagem como fundo*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  
+  
+  }
+  
+  li a{
+  
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 25px;
+   }
+  
+  ul{
+      display: flex; /*ativa a propriedade de alinhamento*/
+      flex-direction: row; /*coloca os elementos na horizontal*/
+  }
+  
+  li{
+  list-style: none; /*remove os pontos das lista*/
+  }
+  
+  nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+   #logo{
+  height: 120px;
+  width: 120px;
+   }
+  
+   .bi{
+  font-size: 40px;
+  color: #4c544c;
+  
+   }
+  
+   .texto-banner{
+      color: #ffffff;
+     font-size: 25px;
      
-     .banner-estrutura{
-        width: 220px;
-        margin: 30px;
+   }
+  
+   .btn{
+      height: 45px;
+      width: 115px;
+      border-radius: 55px;/*Deixa a  borda redonda*/
+      border: none; /*Serve para remover a borda*/
+      color: #ffffff;
+      font-size: 19px;
+      background-color: #333333;
+      margin: 30px;/*distancia o botao do texto*/
+   }
+   
+   .banner-estrutura{
+      width: 220px;
+      margin: 30px;
+   }
+   
+   .section-banner {
+      display: flex;
+      justify-content: center;  /* Centraliza horizontalmente */
+      padding: 40px 0;   /* Mantém espaço ao redor */
+      }
+  
+      .titulo {
+     color: #ffffff;
+     font-size: 35px;
+     font-weight: bold;
      }
-     .section-banner {
-        display: flex;
-        justify-content: center;  /* Centraliza horizontalmente */
-        padding: 40px 0;   /* Mantém espaço ao redor */
-        }
-        .titulo {
-       color: #ffffff;
-       font-size: 35px;
-       font-weight: bold;
-       }
-        .estrutura-titulo{
-       justify-content: center;
-       display: flex;
-       padding: 30px;
+  
+      .estrutura-titulo{
+     justify-content: center;
+     display: flex;
+     padding: 30px;
+    }
+    
+    .produtos{
+     height: 380px;
+     width: 250px;
+    }
+    .valor{
+     color: #ffffff;
+     font-weight: bold;
+     font-size: 30px;
+    }
+  
+    .card{
+     width: 250px;
+     height: 430px;
+    }
+  
+    
+    .card-texto{
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+    }
+  
+    .cores{
+     height: 20px;
+     width: 15px;
+     border-radius: 50%;
+   
+    }
+    .vermelho{
+     background-color: rgb(165, 42, 42);
+    }
+    .azul{
+     background-color: blue;
+    }
+    .amarelo{
+     background-color: chartreuse;
+    }
+   .caixa-cores{
+    flex-direction: row;
+     display: flex;
+     padding: 5px;
+     gap: 5px;
+  
+   }
+     .produtos2{
+     height: 380px;
+     width: 250px;
+    }
+    .valor{
+     color: #ffffff;
+     font-weight: bold;
+     font-size: 30px;
+    }
+  
+    .card2{
+     width: 250px;
+     height: 430px;
+     
+    }
+  
+    
+    .card-texto2{
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+    }
+  
+    .cores2{
+     height: 20px;
+     width: 15px;
+     border-radius: 50%;
+   
+    }
+    .vermelho{
+     background-color: brown;
+    }
+    .azul{
+     background-color: blue;
+    }
+    .amarelo{
+     background-color: chartreuse;
+    }
+   .caixa-cores2{
+    flex-direction: row;
+     display: flex;
+     padding: 5px;
+     gap: 5px;
+     }
+    
+       .produtos3{
+     height: 380px;
+     width: 250px;
+    }
+    .valor{
+     color: #ffffff;
+     font-weight: bold;
+     font-size: 30px;
+    }
+  
+    .card3{
+     width: 250px;
+     height: 430px;
+     
+    }
+  
+    
+    .card-texto3{
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+    }
+  
+    .cores2{
+     height: 20px;
+     width: 15px;
+     border-radius: 50%;
+   
+    }
+    .vermelho{
+     background-color: brown;
+    }
+    .azul{
+     background-color: blue;
+    }
+    .amarelo{
+     background-color: chartreuse;
+    }
+   .caixa-cores3{
+    flex-direction: row;
+     display: flex;
+     padding: 5px;
+     gap: 5px;
+   }
+   .carousel {
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      gap: 30px; 
+      padding-bottom: 50px; 
       }
-      .produtos{
-       height: 380px;
-       width: 250px;
+  
+      .banner-xbox{
+      height: 450px;
+      width: 850px;
+      background-image: url("./assets/x-box.png"); /*ele adiciona uma imagem como fundo*/
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
       }
-      .valor{
-       color: #ffffff;
-       font-weight: bold;
-       font-size: 30px;
-      }
-      .card{
-       width: 250px;
-       height: 430px;
-      }
-      .card-texto{
-       justify-content: center;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-      }
-      .cores{
-       height: 20px;
-       width: 15px;
-       border-radius: 50%;
-      }
-      .vermelho{
-       background-color: rgb(165, 42, 42);
-      }
-      .azul{
-       background-color: blue;
-      }
-      .amarelo{
-       background-color: chartreuse;
-      }
-     .caixa-cores{
-      flex-direction: row;
-       display: flex;
-       padding: 5px;
-       gap: 5px;
+  
+     .texto-xbox-banner{
+      color: #ffffff;
+     font-size: 25px;
+     display: flex;
+     font-weight: 700;
     
      }
-       .produtos2{
-       height: 380px;
-       width: 250px;
+  
+     .btn2{
+      height: 45px;
+      width: 115px;
+      border-radius: 55px;/*Deixa a  borda redonda*/
+      border: none; /*Serve para remover a borda*/
+      color: #ffffff;
+      font-size: 19px;
+      background-color: #333333;
+      margin: 10px;/*distancia o botao do texto*/
       }
-      .valor{
-       color: #ffffff;
-       font-weight: bold;
-       font-size: 30px;
+  
+      .section-xbox {
+      display: flex;
+      justify-content: center;  /* Centraliza horizontalmente */
+      padding: 30px 0;   /* Mantém espaço ao redor */
       }
-      .card2{
-       width: 250px;
-       height: 430px;
-      }
-      .card-texto2{
-       justify-content: center;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-      }
-      .cores2{
-       height: 20px;
-       width: 15px;
-       border-radius: 50%;
-      }
-      .vermelho{
-       background-color: brown;
-      }
-      .azul{
-       background-color: blue;
-      }
-      .amarelo{
-       background-color: chartreuse;
-      }
-     .caixa-cores2{
-      flex-direction: row;
-       display: flex;
-       padding: 5px;
-       gap: 5px;
-       }
-         .produtos3{
-       height: 380px;
-       width: 250px;
-      }
-      .valor{
-       color: #ffffff;
-       font-weight: bold;
-       font-size: 30px;
-      }
-      .card3{
-       width: 250px;
-       height: 430px;
-      }
-      .card-texto3{
-       justify-content: center;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       
-      }
-      .cores2{
-       height: 20px;
-       width: 15px;
-       border-radius: 50%;
-      }
-      .vermelho{
-       background-color: brown;
-      }
-      .azul{
-       background-color: blue;
-      }
-      .amarelo{
-       background-color: chartreuse;
-      }
-     .caixa-cores3{
-      flex-direction: row;
-       display: flex;
-       padding: 5px;
-       gap: 5px;
-     }
-     .carousel {
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        gap: 30px; 
-        padding-bottom: 50px; 
-        }
-    
-        .xbox{
-        height: 450px;
-        width: 850px;
-        background-image: url("./assets/x-box.png"); /*ele adiciona uma imagem como fundo*/
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        }
-    
-       .texto-xbox{
-        color: #ffffff;
-       font-size: 25px;
-       display: flex;
       
-       }
-    
-       .btn2{
-        height: 45px;
-        width: 115px;
-        border-radius: 55px;/*Deixa a  borda redonda*/
-        border: none; /*Serve para remover a borda*/
-        color: #ffffff;
-        font-size: 19px;
-        background-color: #333333;
-        margin: 10px;/*distancia o botao do texto*/
-        }
-    
-        .section-xbox {
-        display: flex;
-        justify-content: center;  /* Centraliza horizontalmente */
-        padding: 30px 0;   /* Mantém espaço ao redor */
-        }
-        
-    
-        .xbox {
+  
+      .banner-xbox {
         display: flex;
         flex-direction: column;
         align-items: end; 
         text-align: center; 
         justify-content: baseline;
         
-    }
-    .xbox-estrutura{
-      width: 350px;
-        margin: 40px;
-    
-    }
+  }
+  .banner-xbox-estrutura{
+    width: 350px;
+      margin: 40px;
+  
+  }
