@@ -334,9 +334,10 @@
   
   .footer-rodape {
     display: flex;
-    justify-content: baseline;
-    gap: 150px;
-    margin-bottom: 10px;
+    justify-content: space-around;   
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    gap: 40px;
   
   
   
@@ -348,6 +349,8 @@
     font-size: 20px;
     margin-bottom: 0px;
     font-weight: bold;
+    text-align: center;          /* centraliza todo o texto */
+    min-width: 180px;
   }
   
   
@@ -405,6 +408,11 @@
   
   .titulo-footer {
     color: #464242;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
   }
   
   .caixa-maior {
